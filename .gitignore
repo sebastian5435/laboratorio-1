@@ -1,0 +1,18 @@
+# Backend
+server/target/
+
+# Frontend
+client/node_modules/
+client/dist/
+
+# Secretos y certificados locales
+*.local
+*.pem
+
+# Herramientas / editores
+.claude/
+.idea/
+.vscode/
+nbproject/
+*.iml
+.DS_Store
