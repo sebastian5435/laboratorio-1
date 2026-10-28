@@ -44,6 +44,14 @@ Al ser un certificado autofirmado, Chrome mostrará una advertencia: "Configurac
 ## Lighthouse
 Con la build corriendo (`npm run preview`), abre la app en Chrome → F12 → pestaña **Lighthouse** → **Analyze page load**.
 
+Resultado sobre https://localhost:3000 (Lighthouse 12.8, modo escritorio):
+
+| Performance | Accessibility | Best Practices | SEO |
+|---|---|---|---|
+| 85 | 100 | 100 | 92 |
+
+![Reporte de Lighthouse](docs/lighthouse.png)
+
 ## Endpoints
 | Método | URL | Descripción |
 |---|---|---|
